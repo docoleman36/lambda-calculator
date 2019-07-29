@@ -24,11 +24,11 @@ function App() {
         <Display />
         <div className="main">
           <div className="middle-content">
-            {<Operators />}
+            {<Specials />}
             {<Numbers />}
           </div>
           <div className="right-side">
-            {<Specials />}
+            {<Operators />}
           </div>
         </div>
       </div>

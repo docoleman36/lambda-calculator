@@ -28,35 +28,37 @@ img {
 
   .main{
     display:flex;
-    flex-direction: column; 
     padding: 0 20px;
   }
 
   .middle-content{
-    width: 300px;
-
-    button{
-      font-size: 30px;
-      margin: 10px;
-      border-radius: 30%;
-      color: white; 
-    }
-
+    width: 240px;
     .top{
       background-color: #2160B1;
     }
 
-    .middle{
-      background-color: #22244B;
+    div{
+      width: 240px;
+      button{
+        font-size: 30px;
+        margin: 10px;
+        border-radius: 30%;
+        color: white; 
+      }
+
+      .middle{
+        background-color: #22244B;
+      }
     }
   }
 
   .right-side{
     width: 70px;
 
-    div{
+    .side{
       display: flex;
       flex-direction: column;
+
     }
   
     button{
